@@ -22,7 +22,7 @@ Before running the setup, you'll need:
 Download [Upload to ImgBB.zip](https://raw.githubusercontent.com/fosterbarnes/PublicFiles/main/Upload%20%20to%20ImgBB/Upload%20%20to%20ImgBB.zip) and unzip
 
 ### Step 2: Run the Setup
-1. **Right-click** on `Setup-UploadToImgbb.bat` and select **"Run as administrator"**
+1. **Double-click** on `Setup-UploadToImgbb.bat` 
 2. **Enter your ImgBB API key** when prompted
 3. **Wait for the setup to complete** - the script will automatically:
    - Copy the PowerShell script to `Documents\Batch Files\`
