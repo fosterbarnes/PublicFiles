@@ -2,7 +2,7 @@
 
 This package provides an automated setup for the "Upload to Imgbb" context menu option for image files. The setup script automatically handles file placement, API key configuration, and registry file generation.
 
-## Files Included in [Upload to ImgBB.zip](https://github.com/fosterbarnes/PublicFiles/blob/main/Upload%20%20to%20ImgBB/Upload%20%20to%20ImgBB.zip")
+## Files Included in [Upload to ImgBB.zip](https://github.com/fosterbarnes/PublicFiles/blob/main/Upload%20%20to%20ImgBB/Upload%20%20to%20ImgBB.zip)
 
 1. **`Setup-UploadToImgbb.bat`** - Automated setup script 
 2. **`UploadToImgbb.ps1`** - PowerShell script for uploading images to ImgBB
