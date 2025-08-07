@@ -2,7 +2,7 @@
 
 /* System accent color */
 :root {
-    --system-accent-color: #9b76cfe3;
+    --system-accent-color: #8968b8e3;
     --system-accent-color-contrast: #ffffffff;
 }
 
@@ -59,3 +59,18 @@ body.dark #sidebar {
 .ͼv .cm-url, .ͼv .cm-link {
     color: #419de9;
 }
+
+/* Cursor color */
+.ͼ1 .cm-cursor, .ͼ1 .cm-dropCursor {
+    background-color: rgba(255, 255, 255, 0.795) !important;
+}
+
+/* Selection color */
+.ͼ3.cm-focused>.cm-scroller>.cm-selectionLayer .cm-selectionBackground {
+    background:  #44465a !important;
+}
+
+/* List spacing */
+.cm-line > span.cm-list:first-of-type:not(.cm-meta):not(.cm-code-mark) {
+    letter-spacing: 10px;
+  }
