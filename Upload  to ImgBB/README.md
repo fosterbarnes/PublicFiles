@@ -2,12 +2,11 @@
 
 This package provides an automated setup for the "Upload to Imgbb" context menu option for image files. The setup script automatically handles file placement, API key configuration, and registry file generation.
 
-## Files Included
+## Files Included in [Upload to ImgBB.zip](https://github.com/fosterbarnes/PublicFiles/blob/main/Upload%20%20to%20ImgBB/Upload%20%20to%20ImgBB.zip")
 
 1. **`Setup-UploadToImgbb.bat`** - Automated setup script 
 2. **`UploadToImgbb.ps1`** - PowerShell script for uploading images to ImgBB
 3. **`imgbbIcon.ico`** - Icon file for the context menu
-4. **`README-UploadToImgbb.md`** - This documentation file
 
 ## Prerequisites
 
@@ -15,15 +14,12 @@ Before running the setup, you'll need:
 
 1. **ImgBB API Key** - Get your free API key from [https://api.imgbb.com/](https://api.imgbb.com/)
 2. **Windows 10/11** - The script is designed for modern Windows systems
-3. **Administrator privileges** - Required for registry modifications
+3. **Administrator privileges** - Required for registry modifications (Editing the registry is how we add items to the right-click context menu)
 
 ## Quick Setup
 
 ### Step 1: Prepare Files
-Ensure you have all the required files in the same folder:
-- `Setup-UploadToImgbb.bat`
-- `UploadToImgbb.ps1`
-- `imgbbIcon.ico`
+Download [Upload to ImgBB.zip](https://raw.githubusercontent.com/fosterbarnes/PublicFiles/main/Upload%20%20to%20ImgBB/Upload%20%20to%20ImgBB.zip) and unzip
 
 ### Step 2: Run the Setup
 1. **Right-click** on `Setup-UploadToImgbb.bat` and select **"Run as administrator"**
