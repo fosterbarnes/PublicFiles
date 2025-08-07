@@ -55,6 +55,16 @@ body.dark #sidebar {
     color: #c58cf7;
 }
 
+/* List tag color */
+.cm-list.cm-content-span.cm-code-mark.cm-meta {
+    color: #ff75c6;
+}
+
+/* Emphasis tag color */
+.cm-list.cm-content-span.cm-emphasis.cm-code-mark.cm-meta {
+    color: #eefe90;
+}
+
 /* Link colors */
 .ͼv .cm-url, .ͼv .cm-link {
     color: #419de9;
