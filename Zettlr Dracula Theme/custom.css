@@ -1,0 +1,61 @@
+/* Dracula theme for Zettlr */
+
+/* System accent color */
+:root {
+    --system-accent-color: #9b76cfe3;
+    --system-accent-color-contrast: #ffffffff;
+}
+
+/* Title bar colors */
+body.win32 #menubar {
+    background-color: #1e1e1e;
+    color: var(--system-accent-color-contrast);
+}
+
+/* Tab bar background color */
+body.win32.dark div.tab-container {
+    background-color: #191a21;
+}
+
+/* Tab bar active tab background color */
+body.win32.dark div.tab-container div[role="tab"].active {
+    background-color: #282936;
+}
+
+/* Tab bar inactive tab color */
+body.win32.dark div.tab-container div[role="tab"] {
+    border-color: #787878;
+    background-color: #21212c;
+}
+
+/* File tree background color */
+body.win32.dark #file-tree {
+    background-color: #21212c;
+}
+
+/* File tree selected item */
+body div.tree-item-container .tree-item.selected .display-text {
+    background-color: #313241;
+    color: var(--system-accent-color-contrast, --c-primary-contrast);
+}
+
+/* Editor background color */
+body.dark .main-editor-wrapper {
+    background-color: #282936;
+}
+
+/* Sidebar background color */
+body.dark #sidebar {
+    background-color: #21212c;
+    --system-accent-color: #6d9de6;
+}
+
+/* Header and other element colors */
+.ͼv .cm-code-mark, .ͼv .cm-zkn-tag, .ͼv .cm-zkn-link {
+    color: #c58cf7;
+}
+
+/* Link colors */
+.ͼv .cm-url, .ͼv .cm-link {
+    color: #419de9;
+}
