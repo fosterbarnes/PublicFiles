@@ -62,12 +62,12 @@ body.dark #sidebar {
 
 /* Cursor color */
 .ͼ1 .cm-cursor, .ͼ1 .cm-dropCursor {
-    background-color: rgba(255, 255, 255, 0.795);
+    background-color: rgba(255, 255, 255, 0.795) !important;
 }
 
 /* Selection color */
 .ͼ3.cm-focused>.cm-scroller>.cm-selectionLayer .cm-selectionBackground {
-    background:  #44465a;
+    background:  #44465a !important;
 }
 
 /* List spacing */
